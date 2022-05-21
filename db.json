@@ -1,14 +1,17 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "users": [
+    { "id": 1, "name": "Nesho", "role": "Administrator" },
+    { "id": 2, "name": "Slobodan", "role": "User" },
+    { "id": 3, "name": "Stevica", "role": "Guest" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "services": [
+    { "id": 1, "name": "detect" },
+    { "id": 2, "name": "crop" },
+    { "id": 3, "name": "align" },
+    { "id": 4, "name": "count" }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "pipelines": [
+    { "id": 1, "name": "monolayer" },
+    { "id": 2, "name": "digital_staining" }
+  ]
 }
