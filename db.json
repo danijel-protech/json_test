@@ -1,17 +1,20 @@
-{
-  "users": [
-    { "id": 1, "name": "Nesho", "role": "Administrator" },
-    { "id": 2, "name": "Slobodan", "role": "User" },
-    { "id": 3, "name": "Stevica", "role": "Guest" }
-  ],
-  "services": [
-    { "id": 1, "name": "detect" },
-    { "id": 2, "name": "crop" },
-    { "id": 3, "name": "align" },
-    { "id": 4, "name": "count" }
-  ],
-  "pipelines": [
-    { "id": 1, "name": "monolayer" },
-    { "id": 2, "name": "digital_staining" }
-  ]
-}
+[
+  {
+    "root_dir": "ROOT",
+    "patient_names": 23,
+    "blood_cell_type": "WBC"
+    "image_type": "BF"
+  },
+  {
+    "root_dir": "ROOT2",
+    "patient_names": 25,
+    "blood_cell_type": "RBC"
+    "image_type": "BF"
+  },
+  {
+    "root_dir": "ROOT3",
+    "patient_names": 27,
+    "blood_cell_type": "WBC"
+    "image_type": "DIC"
+  }
+]
